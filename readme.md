@@ -2,4 +2,4 @@
 
 ## Giving shoutout to the image owners
 
-[Albin Berlin](https://www.pexels.com/@albinberlin/)
+[Trace Constant](https://www.pexels.com/@trace/)

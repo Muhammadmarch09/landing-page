@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto;
 }
 /* Header  */
 header{
@@ -30,7 +31,22 @@ header nav ul{
 }
 header nav ul li a{
     color: #e5e7eb;
-    font-family:Roboto;
     text-decoration: none;
     font-size: 18px;
+}
+header main{
+    display: flex;
+    justify-content: space-around;
+}
+header main .texts h1{
+    font-size: 48px;
+
+}
+header main .img{
+    background-image: url(images/header-main.png);
+    width: 200px;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
