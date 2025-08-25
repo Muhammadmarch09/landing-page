@@ -1,5 +1,36 @@
+/* Importing Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Playwrite+HU:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Playwrite+HU&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+/* Header  */
+header{
+    background-color: #1f2937;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+}
+header nav .logo h1{
+    font-size: 24px;
+    color: #f9faf8;
+    font-family:"Playwrite HU", cursive ;
+    font-weight: bolder;
+}
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    align-items: center;
+}
+header nav ul li a{
+    color: #e5e7eb;
+    font-family:Roboto;
+    text-decoration: none;
+    font-size: 18px;
 }
