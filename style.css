@@ -99,3 +99,23 @@ header main .img {
     color:#5a626e;
 }
 
+/* Quets section  */
+.quote{
+background-color: #e5e7eb;
+padding: 42px;
+}
+.quote h1{
+    font-size: 36px;
+    font-weight: 200;
+    color: #1f2937;
+    margin: auto;
+    width: 60%;
+padding: 22px;
+}
+.quote p{
+    text-align: end;
+    width: 70%;
+    font-weight: bold;
+    position: relative;
+    bottom: 30px;
+}
