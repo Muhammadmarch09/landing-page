@@ -1,52 +1,92 @@
 /* Importing Fonts  */
-@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Playwrite+HU:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Playwrite+HU:wght@300&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Playwrite+HU&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Playwrite+HU&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Roboto;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
 }
 /* Header  */
-header{
-    background-color: #1f2937;
+header {
+  background-color: #1f2937;
 }
-header nav{
-    display: flex;
-    justify-content: space-around;
+header nav {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 12px;
 }
-header nav .logo h1{
-    font-size: 24px;
-    color: #f9faf8;
-    font-family:"Playwrite HU", cursive ;
-    font-weight: bolder;
+header nav .logo h1 {
+  font-size: 24px;
+  color: #f9faf8;
+  font-family: "Playwrite HU", cursive;
+  font-weight: bolder;
 }
-header nav ul{
-    display: flex;
-    list-style-type: none;
-    gap: 32px;
-    align-items: center;
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 32px;
+  align-items: center;
 }
-header nav ul li a{
-    color: #e5e7eb;
-    text-decoration: none;
-    font-size: 18px;
+header nav ul li a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 18px;
 }
-header main{
-    display: flex;
-    justify-content: space-around;
+header main {
+  display: flex;
+  justify-content: space-evenly;
 }
-header main .texts h1{
-    font-size: 48px;
+header main .texts {
+  width: 30%;
+  padding: 20px;
+}
+header main .texts h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  margin: 6px;
+}
+header main .texts p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 6px;
+}
+header main .texts button {
+  background-color: #3882f6;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  margin: 6px;
+  color: #f9faf8;
+}
+header main .img {
+  background-image: url(images/bugatti-chiron.png);
+  width: 30%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* Main  */
+.main h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+.main .card-container .card .img1{
+    background-image: url(images/aston-martin.png);
+}
+.main .card-container .card .img2{
+    background-image: url(images/bmw.png);
+}
+.main .card-container .card .img3{
+    background-image: url(images/bmwi8.png);
+}
+.main .card-container .card .img4{
+background-image: url(images/bently.png);
+}
 
-}
-header main .img{
-    background-image: url(images/header-main.png);
-    width: 200px;
-    height: auto;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
