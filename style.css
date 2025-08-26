@@ -78,44 +78,74 @@ header main .img {
   color: #1f2937;
   margin-bottom: 52px;
 }
-.main .card-container{
-    display: flex;
-    justify-content: center;
-    gap: 32px;
-    align-items: center;
+.main .card-container {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  align-items: center;
 }
-.main .card-container .card{
-    width: 200px;
-    text-align: center;
+.main .card-container .card {
+  width: 200px;
+  text-align: center;
 }
-.main .card-container .card img{
-    border: 2px solid #3882f6;
-    padding: 12px;
-    border-radius: 8px;
+.main .card-container .card img {
+  border: 2px solid #3882f6;
+  padding: 12px;
+  border-radius: 8px;
 }
-.main .card-container .card p{
-    font-size: 12px;
-    width: 180px;
-    color:#5a626e;
+.main .card-container .card p {
+  font-size: 12px;
+  width: 180px;
+  color: #5a626e;
 }
 
 /* Quets section  */
-.quote{
-background-color: #e5e7eb;
-padding: 42px;
+.quote {
+  background-color: #e5e7eb;
+  padding: 42px;
 }
-.quote h1{
-    font-size: 36px;
-    font-weight: 200;
-    color: #1f2937;
-    margin: auto;
-    width: 60%;
-padding: 22px;
+.quote h1 {
+  font-size: 36px;
+  font-weight: 200;
+  color: #1f2937;
+  margin: auto;
+  width: 60%;
+  padding: 22px;
 }
-.quote p{
-    text-align: end;
-    width: 70%;
-    font-weight: bold;
-    position: relative;
-    bottom: 30px;
+.quote p {
+  text-align: end;
+  width: 70%;
+  font-weight: bold;
+  position: relative;
+  bottom: 30px;
+}
+/* Card  */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .card {
+  background-color: #3882f6;
+  width: 70vw;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.container .card h1 {
+  color: #f9faf8;
+  font-size: 20px;
+}
+.container .card p {
+  font-size: 14px;
+  color: #e5e7eb;
+}
+.container .card button {
+  background-color: #3882f6;
+  border: 1px solid #f9faf8;
+  padding: 0px 38px;
+  border-radius: 6px;
+  color: #f9faf8;
+  font-weight: 800;
 }
