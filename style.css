@@ -76,17 +76,26 @@ header main .img {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
+  margin-bottom: 52px;
 }
-.main .card-container .card .img1{
-    background-image: url(images/aston-martin.png);
+.main .card-container{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    align-items: center;
 }
-.main .card-container .card .img2{
-    background-image: url(images/bmw.png);
+.main .card-container .card{
+    width: 200px;
+    text-align: center;
 }
-.main .card-container .card .img3{
-    background-image: url(images/bmwi8.png);
+.main .card-container .card img{
+    border: 2px solid #3882f6;
+    padding: 12px;
+    border-radius: 8px;
 }
-.main .card-container .card .img4{
-background-image: url(images/bently.png);
+.main .card-container .card p{
+    font-size: 12px;
+    width: 180px;
+    color:#5a626e;
 }
 
